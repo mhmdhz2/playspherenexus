@@ -191,7 +191,7 @@ REACT_APP_FIREBASE_APP_ID=your_app_id
 
 ## 📊 GitHub
 
-- **GitHub Repo:** [https://github.com/YOUR-USERNAME/playsphere-nexus](https://github.com/mhmdhz2/playspherenexus)
+- **GitHub Repo:** https://github.com/mhmdhz2/playspherenexus
 
 
 ---
