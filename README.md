@@ -28,62 +28,8 @@ PlaySphere Nexus is a full-stack web application for managing indoor playground 
 
 ---
 
-## 🚀 Setup Instructions
 
-### Step 1 – Clone the Repository
-```bash
-git clone https://github.com/YOUR-USERNAME/playsphere-nexus.git
-cd playsphere-nexus
-```
-
-### Step 2 – Install Dependencies
-```bash
-npm install
-```
-
-### Step 3 – Create a Firebase Project
-
-1. Go to [https://console.firebase.google.com](https://console.firebase.google.com)
-2. Click **"Add Project"** → Name it `playsphere-nexus`
-3. Disable Google Analytics (optional) → **Create Project**
-
-### Step 4 – Enable Firebase Services
-
-In your Firebase Console:
-
-**Authentication:**
-- Go to **Build → Authentication → Get Started**
-- Enable **Email/Password** provider
-- Enable **Google** provider
-
-**Firestore Database:**
-- Go to **Build → Firestore Database → Create Database**
-- Choose **Production Mode** (we have our own rules)
-- Select a region (e.g., `us-central`)
-
-### Step 5 – Get Your Firebase Config
-
-1. In Firebase Console → **Project Settings** (gear icon)
-2. Scroll to **"Your apps"** → Click **"Add app"** → Choose **Web (</>)**
-3. Register app name: `playsphere-nexus-web`
-4. Copy the `firebaseConfig` object
-
-### Step 6 – Add Config to the Project
-
-Open `src/services/firebase.js` and replace the placeholder config:
-
-```javascript
-const firebaseConfig = {
-  apiKey: "YOUR_ACTUAL_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-```
-
-### Step 7 – Deploy Firestore Security Rules
+### Deploy Firestore Security Rules
 
 Install Firebase CLI if not installed:
 ```bash
@@ -97,7 +43,7 @@ Then deploy rules:
 firebase deploy --only firestore:rules
 ```
 
-### Step 8 – Create Demo Users in Firebase
+### Create Demo Users in Firebase
 
 In Firebase Console → **Authentication → Users → Add User:**
 
@@ -110,7 +56,7 @@ In Firebase Console → **Authentication → Users → Add User:**
 
 **OR** use the app's Register page and set roles in Firestore.
 
-### Step 9 – Seed the Database (Demo Data)
+### Seed the Database (Demo Data)
 
 After logging in as admin, open browser console and run:
 ```javascript
@@ -120,7 +66,7 @@ seedDatabase();
 
 Or uncomment the seed button in `src/pages/admin/AdminDashboard.jsx`.
 
-### Step 10 – Run the App
+### Run the App
 ```bash
 npm start
 ```
@@ -129,19 +75,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🌐 Deploy to Firebase Hosting
 
-```bash
-npm run build
-firebase init hosting
-# Public directory: build
-# Single-page app: Yes
-firebase deploy
-```
-
-Your app will be live at: `https://YOUR_PROJECT_ID.web.app`
-
----
 
 ## 📱 Features by Role
 
@@ -255,10 +189,10 @@ REACT_APP_FIREBASE_APP_ID=your_app_id
 
 ---
 
-## 📊 GitHub & OpenProject
+## 📊 GitHub
 
-- **GitHub Repo:** https://github.com/YOUR-USERNAME/playsphere-nexus
-- **OpenProject:** [Your OpenProject URL]
+- **GitHub Repo:** [https://github.com/YOUR-USERNAME/playsphere-nexus](https://github.com/mhmdhz2/playspherenexus)
+
 
 ---
 
