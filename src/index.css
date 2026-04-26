@@ -1,0 +1,14 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Nunito', sans-serif; background: #0F0F1A; color: #F0F0FF; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; font-family: 'Nunito', sans-serif; }
+input, select, textarea { font-family: 'Nunito', sans-serif; outline: none; }
+select option { background: #1E1E35; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #16162A; }
+::-webkit-scrollbar-thumb { background: #2A2A45; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3A3A55; }
