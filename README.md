@@ -24,7 +24,7 @@ PlaySphere Nexus is a full-stack web application for managing indoor playground 
 | Chawki Ghandour | Developer | QR Check-in, AI Recommendations, Lost & Found |
 | Mohamad Hazimeh | Developer | Vendor System, Food Orders, Job Listings |
 | Amira Hallal | Developer | Admin Dashboard, Events, VIP System, Park Map |
-| Hanadi Ghzayel | QA & Docs | Non-Functional Testing, Documentation |
+| Hanadi Ghzayel | Developer | Non-Functional Testing, Documentation |
 
 ---
 
